@@ -1,0 +1,458 @@
+html, body {
+  /* RESET */
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir Next Condensed';
+  background-color: black;
+}
+
+
+h1 {
+    font-family: 'Andale Mono';
+    font-size: 100px;
+    position: relative;
+    margin: auto;
+    color: white;
+}
+
+h2 {
+    font-family: 'Andale Mono';
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Andale Mono';
+    color: white;
+}
+
+p {
+   color: white;
+   width: 90%;
+   font-size: 30px;
+    
+}
+
+.align {
+    text-align: left;
+}
+
+.hometop {
+    text-align: center;
+}
+
+.imgpos {
+    position: relative;
+    text-align: center;
+}
+
+.imgmar {
+    margin-top: 50px;
+}
+.imgsze {
+    height: 100%;
+    width: 30%;
+}
+
+
+.big {
+    font-size: 270px;
+}
+
+.big2 {
+    position: relative;
+    font-size: 100px;
+    margin-bottom: -30px;
+    margin-top: 35px;
+
+}
+
+.big3 {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+
+.big4 {
+    position: relative;
+    font-size: 40px;
+}
+
+.middle {
+    margin-top: 100px;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+.container > div {
+    background: black;
+    padding: 1em;
+}
+
+.center {
+    margin-left: 25%;
+    ;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.container2 > div {
+    background: #7AB622;
+    padding: 1em;
+    border: #7AB622 10px solid:
+}
+
+.container2 > div:nth-child(odd) {
+    background: #7AB622;ß
+    border: #7AB622 10px solid:
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container3 > div {
+    background: #383838;
+    padding: 1em;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.container4 > div {
+    background: #383838;
+    padding: 1em;
+}
+
+
+.containerred {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.containerred > div {
+    background: #B8232D;
+    padding: 1em;
+    border: #B8232D 10px solid:
+}
+
+.containerred > div:nth-child(odd) {
+    background: #B8232D;ß
+    border: #B8232D 10px solid:
+}
+
+.containerpink {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.containerpink > div {
+    background: #D7578C;
+    padding: 1em;
+}
+
+.containerpink > div:nth-child(odd) {
+    background: #D7578C;ß
+}
+
+.containerblue {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.containerblue > div {
+    background: #27DEF7;
+    padding: 1em;
+}
+
+.containerblue > div:nth-child(odd) {
+    background: #27DEF7;ß
+}
+
+.containergreen {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.containergreen > div {
+    background: #7AB622;
+    padding: 1em;
+}
+
+.containergreen > div:nth-child(odd) {
+    background: #7AB622;ß
+}
+
+.containeryellow {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.containeryellow > div {
+    background: #F9B92C;
+    padding: 1em;
+}
+
+.containeryellow > div:nth-child(odd) {
+    background: #F9B92C;ß
+}
+
+.containerbutton {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.containerbutton > div {
+    background: #383838;
+    padding: 1em;
+}
+
+.containerbutton > div:nth-child(odd) {
+    background: #383838;ß
+}
+
+
+.spaceleft {
+    margin-left: 17px;
+}
+
+
+
+/* ------ Buttons ------*/
+
+
+
+/* button div */
+#buttons {
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #27DEF7;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.green {
+  background-color: #7AB622;
+  box-shadow: 0px 5px 0px 0px #496C15;
+}
+
+.green:hover {
+  background-color: #48E68B;
+}
+
+.red {
+  background-color: #B8232D;
+  box-shadow: 0px 5px 0px 0px #7C181F;
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+
+.pink {
+  background-color: #D7578C;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.pink:hover {
+  background-color: #FF6CA9;
+}
+
+.yellow {
+  background-color: #F9B92C;
+  box-shadow: 0px 5px 0px 0px #9F771E;
+}
+
+.yellow:hover {
+  background-color: #FFDE29;
+}
+
+/* ----- home button ------ */
+
+.swipe-button {
+  border: 1px solid currentColor;
+  color: white;
+  display: block;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: transparent;
+  max-width: 20rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+    font-size: 1.5em;
+}
+.swipe-button:before {
+  background: white;
+  content: '';
+  height: 5rem;
+  left: 0;
+  position: absolute;
+  -webkit-transition: width .25s ease;
+  transition: width .25s ease;
+  top: 0;
+  width: 0;
+}
+.swipe-button:hover {
+  color: #b8232d;
+}
+.swipe-button:hover:before {
+  width: 100%;
+  z-index: 1;
+}
+.swipe-button:hover:after h3 {
+  width: 100%;
+  z-index: 20;
+    color: #b8232d;
+}
+.swipe-button:active {
+  background: ;
+    color: #b8232d
+}
+
+/* ------ home button ------ */
+
+.btn-red {
+  background: #b8232d;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  font-family: 'Andale Mono';
+    font-size: 30px;
+  
+}
+
+.btn-red:hover {
+  background: #A9242D;
+  color: #FF3644;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+
+.btn-yellow {
+  background: #F9B92C;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  font-family: 'Andale Mono';
+    font-size: 30px;
+  
+}
+
+.btn-yellow:hover {
+  background: #9F7925;
+  color: #FFCF64;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+
+.btn-pink {
+  background: #D7578C;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  font-family: 'Andale Mono';
+    font-size: 30px;
+  
+}
+
+.btn-pink:hover {
+  background: #A8446E;
+  color: #FF6CA9;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+
+.btn-green {
+  background: #7AB622;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  font-family: 'Andale Mono';
+    font-size: 30px;
+  
+}
+
+.btn-green:hover {
+  background: #517A16;
+  color: #ADFF35;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+
+.btn-blue {
+  background: #27DEF7;
+  font-weight: 900;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  font-family: 'Andale Mono';
+    font-size: 30px;
+  
+}
+
+.btn-blue:hover {
+  background: #188391;
+  color: #66EDFF;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+ 
+
+
+
+
+
